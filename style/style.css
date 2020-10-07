@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header + nav */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    align-items: center;
+}
+
+.met {
+    color: yellow;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-element {
+    float: right;
+}
+
+.nav-link {
+    display: block;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #019494;
+}
+
+/* Main page */
+
+.landing-element {
+    border: 1px solid red;
+    width: 50%;
+    height: 70vh;
+    float: left;
+    background-color: #ffcb69;
+}
+
+.landing-name {
+}
+
+.reservation {
+}
