@@ -116,3 +116,14 @@ main {
      position: relative;
      top: 40%;
  }
+
+ /* Menu */
+
+ .menu {
+     height: 100%;
+     background-color: #ffcb69;
+     text-align: center;
+ }
+
+ .menu table {
+ }
