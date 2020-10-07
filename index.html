@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <h1 class="logo"><span class="met">Met</span>Burger</h1>
+            <h1 class="header-logo"><span class="met">Met</span>Burger</h1>
             <nav>
                 <ul class="nav-list">
                     <li class="nav-element"><a href="" class="nav-link">Menu</a></li>
@@ -17,11 +17,22 @@
         </header>
         <main>
             <div class="landing-name landing-element">
-                <h2 class="upper">MetBurger!</h2>
-                <h3>good burgers.</h3>
+                <h1 class="upper ">MetBurger!</h2>
+                <h2>good burgers.</h3>
             </div>
             <div class="reservation landing-element">
-                <p>reservation</p>
+                <h2 class="reservation-header">Make a reservation now!</h2>
+                <form>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname">
+                    <label for="guests">Amount of guests:</label>
+                    <input type="text" id="guests">
+                    <label for="special-needs"></label>
+                    <input type="text" id="special-needs">
+                    <input type="submit" id="complete" value="Complete reservation">
+                </form>
             </div>
         </main>
     </body>

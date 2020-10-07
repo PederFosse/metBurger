@@ -9,6 +9,10 @@ li {
     list-style-type: none;
 }
 
+.upper {
+    
+}
+
 /* Header + nav */
 
 header {
@@ -22,7 +26,7 @@ header {
     color: yellow;
 }
 
-.logo {
+.header-logo {
     color: white;
 }
 
@@ -54,6 +58,10 @@ header {
 }
 
 .landing-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .reservation {
