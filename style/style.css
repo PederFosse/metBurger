@@ -9,10 +9,6 @@ li {
     list-style-type: none;
 }
 
-.upper {
-    
-}
-
 /* Header + nav */
 
 header {
@@ -20,6 +16,13 @@ header {
     justify-content: space-around;
     background-color: teal;
     align-items: center;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: white;
 }
 
 .met {
@@ -31,28 +34,36 @@ header {
 }
 
 .nav-element {
-    float: right;
+    float: left;
 }
 
 .nav-link {
     display: block;
-    padding: 1em 1.5em;
+    padding: 2em 1.5em;
     text-decoration: none;
     color: white;
     font-size: 1.2em;
     transition: 0.3s ease;
+    font-weight: 700;
 }
 
 .nav-link:hover {
     background-color: #019494;
 }
 
+.active {
+    color: yellow;
+}
+
 /* Main page */
 
-.landing-element {
-    border: 1px solid red;
-    width: 50%;
+main {
     height: 70vh;
+}
+
+.landing-element {
+    width: 50%;
+    height: 100%;
     float: left;
     background-color: #ffcb69;
 }
@@ -65,4 +76,43 @@ header {
 }
 
 .reservation {
+    text-align: center;
 }
+
+.reservation-header {
+    height: 10%;
+    vertical-align: middle;
+}
+
+.reservation-form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reservation-submit {
+    background-color: #019494;
+    font-size: 1rem;
+    padding: 0.5em;
+    border: 1px solid #017070;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+ footer {
+     height: 20vh;
+     background-color: #019494;
+     color: white;
+     font-size: 1.5em;
+     text-align: center;
+ }
+
+ footer p {
+     display: block;
+     position: relative;
+     top: 40%;
+ }
