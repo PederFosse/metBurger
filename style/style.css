@@ -166,7 +166,12 @@ main {
     header {
         text-align: center;
         flex-direction: column;
-        height: 12vh;
+        height: 30vh;
+        font-size: 2em;
+    }
+
+    main {
+        font-size: 2em;
     }
 
     nav {
@@ -175,7 +180,7 @@ main {
     }
     
     .nav-link {
-        padding: 0 1em;
+        padding: 0 0.2em;
     }
 
     .landing-element {
@@ -189,6 +194,10 @@ main {
 
     .reservation {
         margin: 8vh 0;
+    }
+
+    .reservation-input {
+        
     }
 
     main {
