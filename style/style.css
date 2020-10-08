@@ -159,7 +159,7 @@ main {
  }
 
  .about-element {
-     padding: 2em;
+     padding: 2em 0;
  }
 
  @media only screen and (max-width: 800px) {
@@ -167,11 +167,11 @@ main {
         text-align: center;
         flex-direction: column;
         height: 30vh;
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     main {
-        font-size: 1.5em;
+        font-size: 1.2rem;
     }
 
     nav {
@@ -180,7 +180,7 @@ main {
     }
     
     .nav-link {
-        padding: 0 0.2em;
+        padding: 0 2vw;
     }
 
     .landing-element {
@@ -202,5 +202,6 @@ main {
 
     .about-page {
         width: 90%;
+        font-size: 1em;
     }
 }
