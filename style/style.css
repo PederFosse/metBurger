@@ -129,6 +129,7 @@ main {
      height: 70%;
      display: flex;
      flex-direction: column;
+     margin: 2em;
  }
 
  .menu-table {
@@ -136,6 +137,7 @@ main {
      height: 200px;
      overflow: scroll;
      border-collapse: collapse;
+     margin-top: 1em;
  }
 
  .menu-item {
