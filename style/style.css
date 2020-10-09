@@ -65,6 +65,8 @@ main {
     min-height: 70vh;
     overflow: hidden;
     background-color: #ffcb69;
+    display: flex;
+    align-items: center;
 }
 
 .landing-element {
@@ -74,7 +76,6 @@ main {
 }
 
 .landing-name {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,15 +144,13 @@ main {
      height: 70%;
      display: flex;
      flex-direction: column;
-     margin: 2em;
+     margin: 0 auto;
+     padding: 1em;
  }
 
  .menu-table {
-     width: 20%;
      height: 200px;
-     overflow: scroll;
      border-collapse: collapse;
-     margin-top: 1em;
  }
 
  .menu-item {
@@ -188,6 +187,7 @@ main {
 
     main {
         font-size: 1.2rem;
+        display: block;
     }
 
     nav {
